@@ -9,14 +9,14 @@
 import XCTest
 
 struct Calculator {
-    static func plus(_ x: Int, addent y: Int) -> Int {
+    static func plus(_ x: Int, addend y: Int) -> Int {
         return x + y
     }
 }
 class QiitaApi: XCTestCase {
 
     func test_1足す1が2になること() {
-        let result = Calculator.plus(1, addent: 2)
+        let result = Calculator.plus(1, addend: 2)
         XCTAssertEqual(result, 3) //なぜか機能していない？ command control u なら聴いてる？　とりあえずここは片山さんに聴いてみる
     }
 
@@ -39,5 +39,26 @@ class QiitaApi: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+
+    func test_足し算のテスト () {
+        XCTContext.runActivity(named: "1 足す 1 が 2 になること") { _ in
+            let result = Calculator.plus(1, addend: 1)
+            XCTAssertEqual(result, 2) }
+        XCTContext.runActivity(named: "5 足す 5 が 10 になること") { _ in let result = Calculator.plus(5, addend: 5)
+            XCTAssertEqual(result, 10) }
+    }
+
+}
+
+
+
+enum Coin: Int {
+    case hundred = 100
+}
+class VendingMachine { var money: Int = 0
+    func insert(coin: Coin) { money += coin.rawValue
+    }
+
+
 
 }
