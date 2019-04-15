@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07963AE5703BB2877A80254B362DE7AD /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11EB23952C09858B6E8E66EAEC6E7DB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		16C888EC9908678F5A953A8E09775582 /* Pods-qiitaapiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBABDA2C7DBC5CD43E8D585018433D8 /* Pods-qiitaapiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A41FC80FB0792EB7F67ED4F6EC5D0FF /* Pods-qiitaapi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB97E8B688A9C65BF335ACF0A828D3D2 /* Pods-qiitaapi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		203579597D2250891DB391720EF12B8A /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E4DBC7A1DDA188C57969458989C831 /* PureLayout-dummy.m */; };
+		52D4C26E9AC70EC2B7CF7EBF6A137C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5A7A6C5876CA1EC4CC8A0BA6210D1E23 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */; };
+		6E384C062D006B370297E0CFB161394D /* Pods-qiitaapiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55656B39C9192CCBE34B057C3CC5791 /* Pods-qiitaapiTests-dummy.m */; };
+		7BDCA3CA17339965ACB220DD773B8B52 /* Pods-qiitaapi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6584231A8CB5CEF724EE1E393399A4A0 /* Pods-qiitaapi-dummy.m */; };
+		80E177384C392CAECBBFBC0E16E4ADC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		853277A7FA0CFACFA318BD0E6BA57735 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878469951D1387320A10198172553DCC /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DE0AAF650D7F53FB12DC6A5DAC3F5D /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0A79C661C4E5835106F4B60301BCA8 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */; };
+		8ECB479488BDA092BAF0159B410E4A8B /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */; };
+		B38E1335330AF5EDA7945A9F0851720A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D4D7E5A68BBD56853026246C545D97F7 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6398EB517533BBDBFAE7ABD0845E602 /* Pods-qiitaapiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C5A305027471D9C40848BC11F438C9 /* Pods-qiitaapiUITests-dummy.m */; };
+		EF9BF523C48DA4AB359CDF9EE7AF1F0D /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A8FE77AF7F0F4D5E3BFB49694BE6A1 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4E470A543720D4C941E193938CB74C /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF67FEAAB935165600376295D19047D /* Pods-qiitaapiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE381ED1A75FDD066D59D76E30DCACF7 /* Pods-qiitaapiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E0CF8EC40B251EBAD1E983CC759BCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5B209D18DCE09ADA6B4F488F4B3B56;
+			remoteInfo = "Pods-qiitaapi";
+		};
+		17DD09DC4835C829FAEE4674CBD8F8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5B209D18DCE09ADA6B4F488F4B3B56;
+			remoteInfo = "Pods-qiitaapi";
+		};
+		8E6EB87F288BFF5E70CB4D3BA71AB694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E46AB9E23981541BA1790612DC161D0;
+			remoteInfo = PureLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032B53183731ABF0487F31E06F1D5FA5 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		0D11DCB60974AD5E4610824760CBE983 /* Pods_qiitaapiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_qiitaapiUITests.framework; path = "Pods-qiitaapiUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142B76DAC89DF307CBD13FC3060A1345 /* Pods_qiitaapi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_qiitaapi.framework; path = "Pods-qiitaapi.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F80C879F57ADE3820E84E2E1E93D47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA56C047DF0E63F94F829AEFA53716C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFBFB05C511EFA6848FBDD6BC7CA0AB /* Pods-qiitaapiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qiitaapiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		31C5A305027471D9C40848BC11F438C9 /* Pods-qiitaapiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qiitaapiUITests-dummy.m"; sourceTree = "<group>"; };
+		35D54F1DCC735079F4ABC3180FC4DEAD /* Pods-qiitaapiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qiitaapiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3CE026BF45A80E2F26AC7B51029C5F88 /* Pods-qiitaapiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qiitaapiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		51DE0AAF650D7F53FB12DC6A5DAC3F5D /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		6584231A8CB5CEF724EE1E393399A4A0 /* Pods-qiitaapi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qiitaapi-dummy.m"; sourceTree = "<group>"; };
+		6A58D09AE20965AC02E28DEE8CF7F8FD /* Pods-qiitaapiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qiitaapiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		714084C45BD5C6C973EE06DC9683DB3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78156C04A05F7D0C0C6CA9A79FB4892D /* Pods-qiitaapi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qiitaapi-resources.sh"; sourceTree = "<group>"; };
+		81FC804F2607C88AD2001436C2557896 /* Pods-qiitaapi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qiitaapi.modulemap"; sourceTree = "<group>"; };
+		82E4DBC7A1DDA188C57969458989C831 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		847E3C0D241BF4274F2F6343F33F837E /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		868FE27A1C47B39B34D3B2D813A647D0 /* Pods-qiitaapi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qiitaapi.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B0AC1F5DE113F587D2ED5497198058 /* Pods-qiitaapiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qiitaapiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95815107D0E8BF60718069C52F0BE02B /* Pods-qiitaapi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qiitaapi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		981DD6382C44BF7E867577062A807705 /* Pods-qiitaapiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qiitaapiUITests.modulemap"; sourceTree = "<group>"; };
+		99E0533171CF552B8709C22808C7CFD7 /* Pods-qiitaapi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qiitaapi-frameworks.sh"; sourceTree = "<group>"; };
+		9E4D52E931F2DA52BA39CE8287EF6CF7 /* Pods-qiitaapiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qiitaapiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4181628CD648A057A68466E55CBC162 /* Pods_qiitaapiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_qiitaapiTests.framework; path = "Pods-qiitaapiTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		B11B06DDB6D0FFCA69F68CCEFA466DC9 /* Pods-qiitaapiUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qiitaapiUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B1213AA007E2125E93FF133A78A07987 /* Pods-qiitaapiTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qiitaapiTests-resources.sh"; sourceTree = "<group>"; };
+		B17442F772B4FFC36C60D9E77E387210 /* Pods-qiitaapiUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qiitaapiUITests-resources.sh"; sourceTree = "<group>"; };
+		BB97E8B688A9C65BF335ACF0A828D3D2 /* Pods-qiitaapi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qiitaapi-umbrella.h"; sourceTree = "<group>"; };
+		BE381ED1A75FDD066D59D76E30DCACF7 /* Pods-qiitaapiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qiitaapiUITests-umbrella.h"; sourceTree = "<group>"; };
+		C55656B39C9192CCBE34B057C3CC5791 /* Pods-qiitaapiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qiitaapiTests-dummy.m"; sourceTree = "<group>"; };
+		D4C42ACCCAD0127CB63475FF52B6A115 /* Pods-qiitaapiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qiitaapiTests.modulemap"; sourceTree = "<group>"; };
+		D7478DB3AF0616914643D2957A353756 /* Pods-qiitaapi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qiitaapi.debug.xcconfig"; sourceTree = "<group>"; };
+		D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		DDBABDA2C7DBC5CD43E8D585018433D8 /* Pods-qiitaapiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qiitaapiTests-umbrella.h"; sourceTree = "<group>"; };
+		DEA3CD6F92E64E838EEF4B48B8826A5B /* Pods-qiitaapiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qiitaapiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0BFE1BA54DF5558AE5081A65A6629E8 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FD7E84A26FDEF02EE090EBABEF66C8 /* Pods-qiitaapi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qiitaapi-acknowledgements.plist"; sourceTree = "<group>"; };
+		E54883675C1A6311785555235B295A81 /* Pods-qiitaapiTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qiitaapiTests-frameworks.sh"; sourceTree = "<group>"; };
+		E5587EC943CF23655596FDAB7A1D11BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7069671C4FC7CD178436F40B2A9B79 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		F734C2FC55CD694F5D97D451586C44BF /* Pods-qiitaapiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qiitaapiTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5AD55BEC2EE48E02E87CCE98B08300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E177384C392CAECBBFBC0E16E4ADC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646D2ADCE080F8A109CD49B01D227472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EB23952C09858B6E8E66EAEC6E7DB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F23E73A78F0247B99D1B01F6E2C3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38E1335330AF5EDA7945A9F0851720A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DCA3D630E0C1650A583715C9CA4AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D4C26E9AC70EC2B7CF7EBF6A137C67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1318B06EA6B3FE018B7B648AC2E178FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				142B76DAC89DF307CBD13FC3060A1345 /* Pods_qiitaapi.framework */,
+				A4181628CD648A057A68466E55CBC162 /* Pods_qiitaapiTests.framework */,
+				0D11DCB60974AD5E4610824760CBE983 /* Pods_qiitaapiUITests.framework */,
+				E0BFE1BA54DF5558AE5081A65A6629E8 /* PureLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66B62CCE17C51C72F07BE0DF3147D101 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				714084C45BD5C6C973EE06DC9683DB3E /* Info.plist */,
+				032B53183731ABF0487F31E06F1D5FA5 /* PureLayout.modulemap */,
+				EE7069671C4FC7CD178436F40B2A9B79 /* PureLayout.xcconfig */,
+				82E4DBC7A1DDA188C57969458989C831 /* PureLayout-dummy.m */,
+				847E3C0D241BF4274F2F6343F33F837E /* PureLayout-prefix.pch */,
+				51DE0AAF650D7F53FB12DC6A5DAC3F5D /* PureLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
+				1318B06EA6B3FE018B7B648AC2E178FB /* Products */,
+				B8E23E4EFBD162078A8B10A0898C2656 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9861BC512C2793B1AD2DC8E656265725 /* Pods-qiitaapi */ = {
+			isa = PBXGroup;
+			children = (
+				1DA56C047DF0E63F94F829AEFA53716C /* Info.plist */,
+				81FC804F2607C88AD2001436C2557896 /* Pods-qiitaapi.modulemap */,
+				95815107D0E8BF60718069C52F0BE02B /* Pods-qiitaapi-acknowledgements.markdown */,
+				E2FD7E84A26FDEF02EE090EBABEF66C8 /* Pods-qiitaapi-acknowledgements.plist */,
+				6584231A8CB5CEF724EE1E393399A4A0 /* Pods-qiitaapi-dummy.m */,
+				99E0533171CF552B8709C22808C7CFD7 /* Pods-qiitaapi-frameworks.sh */,
+				78156C04A05F7D0C0C6CA9A79FB4892D /* Pods-qiitaapi-resources.sh */,
+				BB97E8B688A9C65BF335ACF0A828D3D2 /* Pods-qiitaapi-umbrella.h */,
+				D7478DB3AF0616914643D2957A353756 /* Pods-qiitaapi.debug.xcconfig */,
+				868FE27A1C47B39B34D3B2D813A647D0 /* Pods-qiitaapi.release.xcconfig */,
+			);
+			name = "Pods-qiitaapi";
+			path = "Target Support Files/Pods-qiitaapi";
+			sourceTree = "<group>";
+		};
+		9C6F93A5AE4A9293598494393460DF93 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */,
+				3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */,
+				256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */,
+				D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */,
+				2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */,
+				62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */,
+				261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */,
+				AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */,
+				5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */,
+				66B62CCE17C51C72F07BE0DF3147D101 /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		9F32154D84D0AEC715B3D7836B541780 /* Pods-qiitaapiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5587EC943CF23655596FDAB7A1D11BB /* Info.plist */,
+				D4C42ACCCAD0127CB63475FF52B6A115 /* Pods-qiitaapiTests.modulemap */,
+				DEA3CD6F92E64E838EEF4B48B8826A5B /* Pods-qiitaapiTests-acknowledgements.markdown */,
+				6A58D09AE20965AC02E28DEE8CF7F8FD /* Pods-qiitaapiTests-acknowledgements.plist */,
+				C55656B39C9192CCBE34B057C3CC5791 /* Pods-qiitaapiTests-dummy.m */,
+				E54883675C1A6311785555235B295A81 /* Pods-qiitaapiTests-frameworks.sh */,
+				B1213AA007E2125E93FF133A78A07987 /* Pods-qiitaapiTests-resources.sh */,
+				DDBABDA2C7DBC5CD43E8D585018433D8 /* Pods-qiitaapiTests-umbrella.h */,
+				94B0AC1F5DE113F587D2ED5497198058 /* Pods-qiitaapiTests.debug.xcconfig */,
+				F734C2FC55CD694F5D97D451586C44BF /* Pods-qiitaapiTests.release.xcconfig */,
+			);
+			name = "Pods-qiitaapiTests";
+			path = "Target Support Files/Pods-qiitaapiTests";
+			sourceTree = "<group>";
+		};
+		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6F93A5AE4A9293598494393460DF93 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA1D17CDF9BA788DD08CC03DD8B2DB94 /* Pods-qiitaapiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F80C879F57ADE3820E84E2E1E93D47 /* Info.plist */,
+				981DD6382C44BF7E867577062A807705 /* Pods-qiitaapiUITests.modulemap */,
+				9E4D52E931F2DA52BA39CE8287EF6CF7 /* Pods-qiitaapiUITests-acknowledgements.markdown */,
+				3CE026BF45A80E2F26AC7B51029C5F88 /* Pods-qiitaapiUITests-acknowledgements.plist */,
+				31C5A305027471D9C40848BC11F438C9 /* Pods-qiitaapiUITests-dummy.m */,
+				B11B06DDB6D0FFCA69F68CCEFA466DC9 /* Pods-qiitaapiUITests-frameworks.sh */,
+				B17442F772B4FFC36C60D9E77E387210 /* Pods-qiitaapiUITests-resources.sh */,
+				BE381ED1A75FDD066D59D76E30DCACF7 /* Pods-qiitaapiUITests-umbrella.h */,
+				1FFBFB05C511EFA6848FBDD6BC7CA0AB /* Pods-qiitaapiUITests.debug.xcconfig */,
+				35D54F1DCC735079F4ABC3180FC4DEAD /* Pods-qiitaapiUITests.release.xcconfig */,
+			);
+			name = "Pods-qiitaapiUITests";
+			path = "Target Support Files/Pods-qiitaapiUITests";
+			sourceTree = "<group>";
+		};
+		B8E23E4EFBD162078A8B10A0898C2656 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9861BC512C2793B1AD2DC8E656265725 /* Pods-qiitaapi */,
+				9F32154D84D0AEC715B3D7836B541780 /* Pods-qiitaapiTests */,
+				AA1D17CDF9BA788DD08CC03DD8B2DB94 /* Pods-qiitaapiUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2826E7748EDCEACD1B9C1A5194DA0A15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853277A7FA0CFACFA318BD0E6BA57735 /* ALView+PureLayout.h in Headers */,
+				F1A8FE77AF7F0F4D5E3BFB49694BE6A1 /* NSArray+PureLayout.h in Headers */,
+				EF9BF523C48DA4AB359CDF9EE7AF1F0D /* NSLayoutConstraint+PureLayout.h in Headers */,
+				07963AE5703BB2877A80254B362DE7AD /* PureLayout+Internal.h in Headers */,
+				878469951D1387320A10198172553DCC /* PureLayout-umbrella.h in Headers */,
+				D4D7E5A68BBD56853026246C545D97F7 /* PureLayout.h in Headers */,
+				FF4E470A543720D4C941E193938CB74C /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F59093EEE4AD79A9B87CED939B2F3F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF67FEAAB935165600376295D19047D /* Pods-qiitaapiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956257E47F2CE5AF54C0D0275BF76990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A41FC80FB0792EB7F67ED4F6EC5D0FF /* Pods-qiitaapi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF896F8C6356A52E9BA150553FEF26FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C888EC9908678F5A953A8E09775582 /* Pods-qiitaapiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B5B209D18DCE09ADA6B4F488F4B3B56 /* Pods-qiitaapi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815D92F5941A89D1197004A75FEABBC7 /* Build configuration list for PBXNativeTarget "Pods-qiitaapi" */;
+			buildPhases = (
+				956257E47F2CE5AF54C0D0275BF76990 /* Headers */,
+				95999BAE20323E8FEF50A8B653C1645A /* Sources */,
+				E5DCA3D630E0C1650A583715C9CA4AC3 /* Frameworks */,
+				133C69B6196C214715EE3D28400D4693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF73C6F52F8CF9B3A399D1E9E93A18D /* PBXTargetDependency */,
+			);
+			name = "Pods-qiitaapi";
+			productName = "Pods-qiitaapi";
+			productReference = 142B76DAC89DF307CBD13FC3060A1345 /* Pods_qiitaapi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E46AB9E23981541BA1790612DC161D0 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8C97D8672433DF07F327D2B6DDA67D /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				2826E7748EDCEACD1B9C1A5194DA0A15 /* Headers */,
+				9DDB0FB959A7397B95479EC3F8E23ADA /* Sources */,
+				646D2ADCE080F8A109CD49B01D227472 /* Frameworks */,
+				FB299FABD0A59491366562F11CC88AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = E0BFE1BA54DF5558AE5081A65A6629E8 /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B50A7BEB134346E2EFDBC42B640096BD /* Pods-qiitaapiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C54F128E22B633067F5531BA143826 /* Build configuration list for PBXNativeTarget "Pods-qiitaapiUITests" */;
+			buildPhases = (
+				4F59093EEE4AD79A9B87CED939B2F3F0 /* Headers */,
+				F38FBF862FDB7C06209A6BFFE8F79ABB /* Sources */,
+				4A5AD55BEC2EE48E02E87CCE98B08300 /* Frameworks */,
+				71AA8973BD952D65E0F46112F5B350AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86D47A5BD67B3C83193CA491D8A9092 /* PBXTargetDependency */,
+			);
+			name = "Pods-qiitaapiUITests";
+			productName = "Pods-qiitaapiUITests";
+			productReference = 0D11DCB60974AD5E4610824760CBE983 /* Pods_qiitaapiUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE24B5CA79E60A62A53811882F0E0BE5 /* Pods-qiitaapiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FFDDB3834211C69A67A888C1B0181F /* Build configuration list for PBXNativeTarget "Pods-qiitaapiTests" */;
+			buildPhases = (
+				EF896F8C6356A52E9BA150553FEF26FB /* Headers */,
+				74F4D18A2ADB7BC35FD87232ACE0EBBF /* Sources */,
+				B0F23E73A78F0247B99D1B01F6E2C3EB /* Frameworks */,
+				767877486145CB8943C0447247F7308E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97092AF72CF27ABE1254CB67B94EB86B /* PBXTargetDependency */,
+			);
+			name = "Pods-qiitaapiTests";
+			productName = "Pods-qiitaapiTests";
+			productReference = A4181628CD648A057A68466E55CBC162 /* Pods_qiitaapiTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1318B06EA6B3FE018B7B648AC2E178FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B5B209D18DCE09ADA6B4F488F4B3B56 /* Pods-qiitaapi */,
+				FE24B5CA79E60A62A53811882F0E0BE5 /* Pods-qiitaapiTests */,
+				B50A7BEB134346E2EFDBC42B640096BD /* Pods-qiitaapiUITests */,
+				5E46AB9E23981541BA1790612DC161D0 /* PureLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133C69B6196C214715EE3D28400D4693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AA8973BD952D65E0F46112F5B350AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767877486145CB8943C0447247F7308E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB299FABD0A59491366562F11CC88AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F4D18A2ADB7BC35FD87232ACE0EBBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E384C062D006B370297E0CFB161394D /* Pods-qiitaapiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95999BAE20323E8FEF50A8B653C1645A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDCA3CA17339965ACB220DD773B8B52 /* Pods-qiitaapi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDB0FB959A7397B95479EC3F8E23ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7A6C5876CA1EC4CC8A0BA6210D1E23 /* ALView+PureLayout.m in Sources */,
+				8B0A79C661C4E5835106F4B60301BCA8 /* NSArray+PureLayout.m in Sources */,
+				8ECB479488BDA092BAF0159B410E4A8B /* NSLayoutConstraint+PureLayout.m in Sources */,
+				203579597D2250891DB391720EF12B8A /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38FBF862FDB7C06209A6BFFE8F79ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6398EB517533BBDBFAE7ABD0845E602 /* Pods-qiitaapiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97092AF72CF27ABE1254CB67B94EB86B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-qiitaapi";
+			target = 4B5B209D18DCE09ADA6B4F488F4B3B56 /* Pods-qiitaapi */;
+			targetProxy = 17DD09DC4835C829FAEE4674CBD8F8D6 /* PBXContainerItemProxy */;
+		};
+		BCF73C6F52F8CF9B3A399D1E9E93A18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 5E46AB9E23981541BA1790612DC161D0 /* PureLayout */;
+			targetProxy = 8E6EB87F288BFF5E70CB4D3BA71AB694 /* PBXContainerItemProxy */;
+		};
+		E86D47A5BD67B3C83193CA491D8A9092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-qiitaapi";
+			target = 4B5B209D18DCE09ADA6B4F488F4B3B56 /* Pods-qiitaapi */;
+			targetProxy = 0E0CF8EC40B251EBAD1E983CC759BCD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1252960EAD86F10D55419C160209D0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F734C2FC55CD694F5D97D451586C44BF /* Pods-qiitaapiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qiitaapiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qiitaapiTests/Pods-qiitaapiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AF4193019913D9EE642245B28DD72EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868FE27A1C47B39B34D3B2D813A647D0 /* Pods-qiitaapi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qiitaapi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qiitaapi/Pods-qiitaapi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FF4F4A939829364CE6565B7F5DDF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B0AC1F5DE113F587D2ED5497198058 /* Pods-qiitaapiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qiitaapiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qiitaapiTests/Pods-qiitaapiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40B778DAA574D5CE368115B32915EC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7069671C4FC7CD178436F40B2A9B79 /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53B1F31DAE886320CCC0729370E7EAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7069671C4FC7CD178436F40B2A9B79 /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		964B832880E5FA0CFB522B5120D115CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFBFB05C511EFA6848FBDD6BC7CA0AB /* Pods-qiitaapiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qiitaapiUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qiitaapiUITests/Pods-qiitaapiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA8307A54B149900024845807011732D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D54F1DCC735079F4ABC3180FC4DEAD /* Pods-qiitaapiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qiitaapiUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qiitaapiUITests/Pods-qiitaapiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC5F7A634BC147A370A7AF213692A74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7478DB3AF0616914643D2957A353756 /* Pods-qiitaapi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qiitaapi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qiitaapi/Pods-qiitaapi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8C97D8672433DF07F327D2B6DDA67D /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B778DAA574D5CE368115B32915EC71 /* Debug */,
+				53B1F31DAE886320CCC0729370E7EAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815D92F5941A89D1197004A75FEABBC7 /* Build configuration list for PBXNativeTarget "Pods-qiitaapi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5F7A634BC147A370A7AF213692A74D /* Debug */,
+				1AF4193019913D9EE642245B28DD72EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FFDDB3834211C69A67A888C1B0181F /* Build configuration list for PBXNativeTarget "Pods-qiitaapiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF4F4A939829364CE6565B7F5DDF2CF /* Debug */,
+				1252960EAD86F10D55419C160209D0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C54F128E22B633067F5531BA143826 /* Build configuration list for PBXNativeTarget "Pods-qiitaapiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964B832880E5FA0CFB522B5120D115CF /* Debug */,
+				BA8307A54B149900024845807011732D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
