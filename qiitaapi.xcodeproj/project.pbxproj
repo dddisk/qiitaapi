@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		2434039F225D874C0034A424 /* QiitaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434039E225D874C0034A424 /* QiitaApi.swift */; };
 		24B9E2D522576B850096F978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9E2D422576B850096F978 /* AppDelegate.swift */; };
-		24B9E2D722576B850096F978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9E2D622576B850096F978 /* ViewController.swift */; };
+		24B9E2D722576B850096F978 /* QiitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9E2D622576B850096F978 /* QiitaViewController.swift */; };
 		24B9E2DA22576B850096F978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B9E2D822576B850096F978 /* Main.storyboard */; };
 		24B9E2DC22576B860096F978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B9E2DB22576B860096F978 /* Assets.xcassets */; };
 		24B9E2DF22576B860096F978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B9E2DD22576B860096F978 /* LaunchScreen.storyboard */; };
 		24B9E2EA22576B860096F978 /* qiitaapiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9E2E922576B860096F978 /* qiitaapiTests.swift */; };
 		24B9E2F522576B860096F978 /* qiitaapiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9E2F422576B860096F978 /* qiitaapiUITests.swift */; };
+		24E0777D2267338E0090D0C7 /* QiitaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0777C2267338E0090D0C7 /* QiitaCell.swift */; };
 		3C0E53DCCA25C90ACE3E7115 /* Pods_qiitaapi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C831DFEF002357EEB8FA76B /* Pods_qiitaapi.framework */; };
 		8129A2F3D00F22BCD7AFF628 /* Pods_qiitaapiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DFB42E8555F9B1A98F9E95 /* Pods_qiitaapiTests.framework */; };
 		9A39B4A0C40DA65ACB0B5613 /* Pods_qiitaapiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD536C8BF710AC5AB170DB02 /* Pods_qiitaapiUITests.framework */; };
@@ -41,7 +42,7 @@
 		2434039E225D874C0034A424 /* QiitaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaApi.swift; sourceTree = "<group>"; };
 		24B9E2D122576B850096F978 /* qiitaapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qiitaapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B9E2D422576B850096F978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24B9E2D622576B850096F978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24B9E2D622576B850096F978 /* QiitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaViewController.swift; sourceTree = "<group>"; };
 		24B9E2D922576B850096F978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24B9E2DB22576B860096F978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B9E2DE22576B860096F978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		24B9E2F022576B860096F978 /* qiitaapiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qiitaapiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B9E2F422576B860096F978 /* qiitaapiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qiitaapiUITests.swift; sourceTree = "<group>"; };
 		24B9E2F622576B860096F978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E0777C2267338E0090D0C7 /* QiitaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaCell.swift; sourceTree = "<group>"; };
 		50DFB42E8555F9B1A98F9E95 /* Pods_qiitaapiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qiitaapiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C831DFEF002357EEB8FA76B /* Pods_qiitaapi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qiitaapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD5473E6DC66C4D21A04600 /* Pods-qiitaapiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiitaapiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-qiitaapiTests/Pods-qiitaapiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,7 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				24B9E2D422576B850096F978 /* AppDelegate.swift */,
-				24B9E2D622576B850096F978 /* ViewController.swift */,
+				24B9E2D622576B850096F978 /* QiitaViewController.swift */,
+				24E0777C2267338E0090D0C7 /* QiitaCell.swift */,
 				24B9E2D822576B850096F978 /* Main.storyboard */,
 				24B9E2DB22576B860096F978 /* Assets.xcassets */,
 				24B9E2DD22576B860096F978 /* LaunchScreen.storyboard */,
@@ -394,7 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B9E2D722576B850096F978 /* ViewController.swift in Sources */,
+				24B9E2D722576B850096F978 /* QiitaViewController.swift in Sources */,
+				24E0777D2267338E0090D0C7 /* QiitaCell.swift in Sources */,
 				24B9E2D522576B850096F978 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
