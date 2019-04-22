@@ -51,10 +51,10 @@ class QiitaViewController: UIViewController {
     private var tableView = UITableView()
     fileprivate var articles: [QiitaStruct] = []
 
-    let TODO = ["牛乳を買う", "掃除をする", "アプリ開発の勉強をする"]
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "QiitaAPI"
+        
         tableView.dataSource = self
         tableView.frame = view.frame
         view.addSubview(tableView)
@@ -64,6 +64,10 @@ class QiitaViewController: UIViewController {
                 self.tableView.reloadData()
             }
         })
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
 }
 
