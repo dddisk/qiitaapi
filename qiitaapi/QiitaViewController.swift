@@ -1,8 +1,10 @@
 import UIKit
+import SafariServices
 
 // qiitaのapiリストhttps://qiita.com/api/v2/docs
 struct QiitaStruct: Codable {
     var title: String
+    var url: String
     var user: User
     struct User: Codable {
         var name: String
@@ -48,6 +50,7 @@ class QiitaViewController: UIViewController {
         self.title = "QiitaAPI"
         
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.frame = view.frame
         view.addSubview(tableView)
         QiitaViewModel.fetchArticle(completion: { (articles) in
@@ -78,4 +81,17 @@ extension QiitaViewController: UITableViewDataSource {
         return articles.count
     }
 
+}
+
+extension QiitaViewController: UITableViewDelegate {
+
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        let articlesurl = articles[indexPath.row]
+
+        let webPage = articlesurl.url
+        let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+        present(safariVC, animated: true, completion: nil)
+    }
 }
